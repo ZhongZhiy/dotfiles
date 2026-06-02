@@ -10,3 +10,6 @@ end
 if not set -q SSH_AUTH_SOCK
     eval (ssh-agent -c) >/dev/null
 end
+
+# alias
+alias ci=chezmoi
